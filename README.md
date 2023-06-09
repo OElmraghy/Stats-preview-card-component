@@ -26,8 +26,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: (https://github.com/OElmraghy/order-summary-component)
-- Live Site URL: (https://oelmraghy.github.io/order-summary-component)
+- Solution URL: (https://github.com/OElmraghy/Stats-preview-card-component)
+- Live Site URL: (https://oelmraghy.github.io/Stats-preview-card-component/)
 
 ## My process
 
