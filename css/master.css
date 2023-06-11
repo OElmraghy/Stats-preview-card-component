@@ -15,6 +15,10 @@
   padding: 0;
 }
 
+ul {
+  list-style: none;
+}
+
 body {
   font-family: "Inter", sans-serif;
   font-size: 0.9375rem;
@@ -22,7 +26,7 @@ body {
 }
 
 main {
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -85,12 +89,10 @@ main {
   line-height: 1.8;
   margin: 2rem 0 5rem;
   color: var(--main-paragraph);
-  padding-right: 3rem;
 }
 
 @media (max-width: 991px) {
   .card .stats p {
-    padding-right: 0;
     margin: 1.2rem 0 1.8rem;
   }
 }
@@ -102,14 +104,14 @@ main {
   gap: 1rem;
 }
 
-.card .stats .data div span:first-child {
+.card .stats .data li span:first-child {
   display: block;
   font-size: 1.5rem;
   font-weight: bold;
   margin-bottom: 0.1rem;
 }
 
-.card .stats .data div span:last-child {
+.card .stats .data li span:last-child {
   font-family: "Lexend Deca", sans-serif;
   color: var(--stat-headings);
   text-transform: uppercase;
